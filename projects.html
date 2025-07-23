@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <header class="header">
+  <div class="logo">
+    <span>G1</span>
+  </div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="projects.html"><i class="fas fa-image"></i> Projects</a></li>
+      <li><a href="#resume"><i class="fas fa-file-alt"></i> Resume</a></li>
+      <li><a href="#blogs"><i class="fas fa-blog"></i> Blogs</a></li>
+      <li><a href="https://github.com/Jeevansomu0221"><i class="fa-brands fa-github"></i> GitHub</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <h1>Projects</h1>
+    <div class="projects-container">
+
+             <div class="project-card">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/joing1-1.png" alt="joing1 Screenshot 1" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/joing1-2.png" alt="joing1 Screenshot 1" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/joing1-3.png" alt="joing1 Screenshot 1" />
+                    </div>
+                    </div>
+                    <!-- Navigation buttons -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+                <h2>JoinG1</h2>
+                <p>
+                    joinG1 is a modern, responsive, real-time chat application designed for collaborative communication in categorized chat rooms. Whether you're part of a sports fan club, tech discussion group, or a student team, joinG1 helps you interact smoothly with teammates and other users across the globe.
+                        🌐 Available Online
+                </p>
+                <div class="project-buttons">
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://www.joing1.com/"><i class="fas fa-desktop"></i> Demo</a>
+                    </div>
+              </div>
+
+               <div class="project-card">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/amazon1.png" alt="joing1 Screenshot 1" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/amazon2.png" alt="joing1 Screenshot 1" />
+                    </div>
+                
+                    </div>
+                    <!-- Navigation buttons -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+                <h2>Amazon-Clone</h2>
+                <p>
+                    This Amazon Clone is a beginner-friendly e-commerce web application that mimics the core layout and features of the Amazon homepage. Built entirely using HTML, CSS, and JavaScript, it replicates the UI and UX of one of the world’s most popular shopping platforms — making it an excellent showcase of frontend development skills.
+                </p>
+                <div class="project-buttons">
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#"><i class="fas fa-desktop"></i> Demo</a>
+                    </div>
+              </div>
+    </div>
+
+
+  <!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper(".mySwiper", {
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+</body>
+
+</html>
